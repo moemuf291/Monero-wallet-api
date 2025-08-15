@@ -1,0 +1,7 @@
+Flask
+Flask-SQLAlchemy
+Flask-Marshmallow
+marshmallow
+Flask-APScheduler
+python-dotenv
+requests
