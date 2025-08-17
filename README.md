@@ -28,8 +28,8 @@ A production-ready, role-based escrow API backend in Python using Flask.
 ### 1. Clone the repository
 
 ```sh
-git clone <your-repo-url>
-cd monero-escrow
+git clone https://github.com/moemuf291/Monero-wallet-api.git
+
 ```
 
 ### 2. Install dependencies
@@ -38,15 +38,13 @@ cd monero-escrow
 pip install -r requirements.txt
 ```
 
-### 3. Set up environment variables
 
-- Copy `.env.example` to `.env` and adjust as needed.
 
-### 4. Initialize the database and create users
+### 3. Initialize the database and create users
 
 - Create a user or admin API key using the script below.
 
-### 5. Run the Flask app
+### 4. Run the Flask app
 
 ```sh
 python run.py
@@ -321,12 +319,12 @@ Your escrow system is made up of several components that work together to secure
 
 ---
 
-### **Architecture Diagram**
+# Summary of how it would actually work 
 
-```mermaid
-graph TD
-    
-```
+graph:
+
+![Screenshot](https://raw.githubusercontent.com/moemuf291/Monero-wallet-api/main/Images/Screenshot%20(35).png)
+
 
 ---
 
@@ -449,9 +447,10 @@ Here, `415bf99f-5bd9-4966-9bb7-dba7c38d5c83` is the `escrow_uuid`.
 
 ## License
 
-MIT (or your chosen license)
+MIT 
 
 ---
+
 
 
 
